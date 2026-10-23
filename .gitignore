@@ -1,0 +1,18 @@
+# Restricted data (NielsenIQ via the Kilts Center): not redistributable
+data/restricted/*
+!data/restricted/.gitkeep
+
+# Built by the code
+data/derived/*
+!data/derived/.gitkeep
+output/
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# OS
+.DS_Store
+Rplots.pdf
